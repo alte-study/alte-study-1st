@@ -1,0 +1,2 @@
+**- 문제 이름:** 구름 난이도2 &lt;개미 집합의 지름&gt;  
+**- 문제 링크:** https://level.goorm.io/exam/49060/%EA%B0%9C%EB%AF%B8-%EC%A7%91%ED%95%A9%EC%9D%98-%EC%A7%80%EB%A6%84/quiz/1
