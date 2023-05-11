@@ -126,7 +126,7 @@ var countingSortArray = function (nums) {
 
   let plus = 0;
 
-  if (Math.min(...nums)) {
+  if (Math.min(...nums) < 0) {
     plus = Math.abs(Math.min(...nums));
     nums = nums.map((el) => el + plus);
   }
