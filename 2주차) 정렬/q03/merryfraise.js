@@ -7,7 +7,7 @@
  */
 
 const [N, input] = require('fs')
-  .readFileSync('18870.txt')
+  .readFileSync('/dev/stdin')
   .toString()
   .trim()
   .split('\n');
