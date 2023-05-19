@@ -15,6 +15,5 @@ var maxSubarraySumCircular = function (nums) {
     if (gmin > lmin) gmin = lmin;
     sum += num;
   }
-  console.log(gmax, gmin);
   return Math.max(gmax, sum - gmin || gmin);
 };
