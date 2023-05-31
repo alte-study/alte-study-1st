@@ -29,7 +29,7 @@ const [N, ...input] = require('fs')
       입력값이 0이 아니라면 힙에 해당 값을 삽입 (push)
 */
 
-class Heap {
+class MinHeap {
   constructor() {
     this.heap = [null];
   }
@@ -102,7 +102,7 @@ class Heap {
 }
 
 const result = [];
-const heap = new Heap();
+const heap = new MinHeap();
 
 for (const el of input) {
   if (el) heap.push(el);
