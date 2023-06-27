@@ -7,12 +7,12 @@ function solution(n, arr1, arr2) {
     const startIdx1 = n - arr1_b.length;
     const startIdx2 = n - arr2_b.length;
 
-    for (let i = startIdx1; i < n; i++) {
-      if (arr1_b[i - startIdx1] === "1") line[i] = "#";
+    for (let j = startIdx1; j < n; j++) {
+      if (arr1_b[j - startIdx1] === "1") line[j] = "#";
     }
 
-    for (let i = startIdx2; i < n; i++) {
-      if (arr2_b[i - startIdx2] === "1") line[i] = "#";
+    for (let k = startIdx2; k < n; k++) {
+      if (arr2_b[k - startIdx2] === "1") line[k] = "#";
     }
     return line.join("");
   });
