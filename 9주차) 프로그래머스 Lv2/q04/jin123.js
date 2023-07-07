@@ -1,5 +1,5 @@
 function solution(s) {
-  let newS = s.slice(2, -2);
+  const newS = s.slice(2, -2);
   const result = new Set();
   const tupleSet = newS.split("},{").map((el) => {
     return el.split(",");
